@@ -8,4 +8,5 @@ end
 
 target 'FrameworksIntegrationKIFTests' do
 	pod 'KIF'
+	pod 'CocoaLumberjack'
 end

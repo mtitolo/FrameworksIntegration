@@ -32,6 +32,16 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A14F8D731C925316001667DA"
+               BuildableName = "FrameworksIntegrationKIFTests.xctest"
+               BlueprintName = "FrameworksIntegrationKIFTests"
+               ReferencedContainer = "container:FrameworksIntegration.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "A1B8DD681C90C859005C6E5E"
                BuildableName = "FrameworksIntegrationTests.xctest"
                BlueprintName = "FrameworksIntegrationTests"

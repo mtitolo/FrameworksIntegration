@@ -1,6 +1,6 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) $(PLATFORM_DIR)/Developer/Library/Frameworks "$CONFIGURATION_BUILD_DIR/KIF"
+FRAMEWORK_SEARCH_PATHS = $(inherited) $(PLATFORM_DIR)/Developer/Library/Frameworks "$CONFIGURATION_BUILD_DIR/CocoaLumberjack" "$CONFIGURATION_BUILD_DIR/KIF"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_CFLAGS = $(inherited) -iquote "$CONFIGURATION_BUILD_DIR/KIF/KIF.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -framework "KIF"
+OTHER_CFLAGS = $(inherited) -iquote "$CONFIGURATION_BUILD_DIR/CocoaLumberjack/CocoaLumberjack.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/KIF/KIF.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "CocoaLumberjack" -framework "KIF"
 PODS_ROOT = ${SRCROOT}/Pods

@@ -1,0 +1,6 @@
+framework module Pods_FrameworksIntegration {
+  umbrella header "Pods-FrameworksIntegration-umbrella.h"
+
+  export *
+  module * { export * }
+}
